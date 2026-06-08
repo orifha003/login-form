@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Light aesthetic background */
+    background: linear-gradient(135deg, #dbcc9e,rgb(179, 157, 85), #c0af7c, #7b7b1f);
+}
+
+/* Login Card */
+form{
+    width: 380px;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+form:hover{
+    transform: translateY(-5px);
+}
+
+/* Header */
+form  div:first-child{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form  div:first-child i{
+    font-size: 2.5rem;
+    color: #937f1d;
+    background: #eef2ff;
+    padding: 18px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+h2{
+    color: #4e4c0c;
+    font-weight: 600;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+P{
+    text-align: center;
+    margin-top: 20px;
+    color: #3b3a07;
+    font-size: 0.9rem;
+}
+
+/* Input Sections */
+.user{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.password{
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(29, 29, 15);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+input{
+    width: 100%;
+    padding: 14px 45px 14px 15px;
+    border: 2px solid #9fb44b;
+    border-radius: 12px;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input:focus{
+    border-color: #768b35;
+    box-shadow: 0 0 10px rgba(224, 229, 70, 0.2);
+}
+
+/* Input Icons */
+.user i{
+    position: absolute;
+    right: 15px;
+    top: 45px;
+    color: #b8ae94;
+}
+.password i{
+    position: absolute;
+    right: 15px;
+    top: 45px;
+    color: #b8ae94;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.remember input[type="checkbox"]{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    accent-color: #768b35;
+    cursor: pointer;
+}
+
+.remember label{
+    margin: 0;
+    color: #3b3a07;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+/* Button */
+button{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg,#9ab52f,rgb(233, 228, 175),#e5eb25);
+    color: rgb(49, 49, 4);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background: linear-gradient(135deg,#b4ca38,#d8cc1d);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(100, 119, 32, 0.3);
+}
