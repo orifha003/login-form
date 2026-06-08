@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     /* Light aesthetic background */
-    background: linear-gradient(135deg, #dbcc9e,rgb(179, 157, 85), #c0af7c, #7b7b1f);
+    background: linear-gradient(135deg, #dbcc9e,rgb(179, 157, 85), #c0af7c, #d6d66c);
 }
 
 /* Login Card */
@@ -36,8 +36,8 @@ form  div:first-child{
 
 form  div:first-child i{
     font-size: 2.5rem;
-    color: #937f1d;
-    background: #eef2ff;
+    color: #a59233;
+    background: #b0cf6830;
     padding: 18px;
     border-radius: 50%;
     margin-bottom: 12px;
